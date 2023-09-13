@@ -7,6 +7,7 @@ if TYPE_CHECKING:
 
 
 def read_coordinates(file_name: Union[str, Path]) -> List[Tuple[str, str]]:
+    
     """
     Will read a file of comma separated strings and turn it
     into a list
